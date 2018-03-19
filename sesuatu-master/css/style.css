@@ -1,0 +1,298 @@
+/* Import Google Web fonts */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic,700italic);
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+
+
+
+
+body { /* sets the page defaults e.g. background and default typography */
+background: #fff;
+font-family: 'Roboto', sans-serif;
+margin: 0;
+font-size: 18px;
+line-height: 1.5;
+color: rgba(0, 0, 0, 0.74);
+}
+
+.tribune-logo-shadow {
+    background-image: url(../img/logo.png);
+    height: 29px;
+    width: 163px;
+    background-size: cover;
+    display: block;
+    font-size: 0;
+    text-indent: -9999px;
+    margin-left: auto;
+   margin-right: auto;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #fff;
+    display: block;
+    font-size: 11vw;
+}
+
+h6 {
+  font-family: 'Merriweather', serif;
+  font-size: 3vw;
+  margin-bottom: 0em;
+}
+
+
+h5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3em;
+    line-height: 2em;
+}
+
+h4 {
+  margin: 0;
+    font-size: 4vw;
+    display: block;
+-webkit-margin-before: 1.33em;
+-webkit-margin-after: 1.33em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+font-weight: bold;
+
+}
+
+h3 {
+  margin: 0;
+    font-size: 4.6vw;
+}
+
+figure {
+  margin: 0; /* resets the left margin in the figure*/
+}
+
+figure img {
+  max-width: 100%; /* images will shrink to fit inside the main conent column*/
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.7);
+}
+figcaption {
+    font-size: 14px;
+    color: #555;
+    font-family: Montserrat;
+    text-align: center;
+}
+/* adam */
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom:56.25%;
+  /* padding-top:30px; */
+  height:100vh;
+  overflow: hidden;
+}
+
+.video-container video {
+  position: absolute;
+  top:0;
+  left:0;
+  height: 100vh;
+  transform: translate3d(-30%,0%,0);
+}
+
+.video-container figcaption {
+  position: absolute;
+  top: 2%;
+  width: 100%;
+}
+
+.video-container figcaption h1,
+.video-container figcaption h3,
+.video-container figcaption h4 {
+  color: #fff;
+}
+
+
+.video-container figcaption .wrapper {
+  padding: 0 15%;
+  position: relative;
+}
+
+@media screen and (min-width: 801px){
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #fff;
+      display: block;
+      font-size: 6vw;
+  }
+
+  h4 {
+    margin: 0;
+      font-size: 1vw;
+      display: block;
+  -webkit-margin-before: 1.33em;
+  -webkit-margin-after: 1.33em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+
+  }
+
+  h3 {
+    margin: 0;
+      font-size: 1.8vw;
+  }
+  .video-container {
+    position:relative;
+    padding-bottom: 56.25%;
+    padding-top:0;
+    height:100vh;
+  }
+
+  .video-container video {
+    position:absolute;
+    top:0;
+    left:0;
+    width: auto;
+    height:100%;
+    transform: translate3d(-25%,-25%,0);
+  }
+}
+/* end adam */
+
+
+.img_container, .color_conatiner {
+  height: 100vh; /* this sets the height of each full width image section to that of the viewport.*/
+  position: relative;
+  display: flex;
+  background-position: center !important;
+}
+.video_container {
+  display: block;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.slider_container {
+  width:100%;
+}
+
+.video_container header {
+  position: absolute;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+}
+
+.video_container header h1 {
+  position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+#nav {
+  background-image: url(../img/logo.png);
+	font: 12px/30px Helvetica, sans-serif;
+	text-align: center;
+}
+
+#nav a {
+      background-image: url(../img/arrow.png);
+      height:150px;
+      width: 42px;
+      background-size: 100%;
+      display: block;
+      font-size: 0;
+      text-indent: -9999px;
+      margin: auto;
+      position: absolute;
+      bottom: -160px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-repeat: no-repeat;
+}
+
+
+header {
+  width: 75%;
+  text-align: center;
+  margin: auto;
+}
+header {
+  color: #fff;
+  text-shadow:0 0 0px #000000;
+}
+header h1 {
+  margin: 0;
+  font-size: 8vw;
+}
+header a {
+  color: white;
+}
+/* Styles for individual header sections by class name. */
+
+.masthead {
+  background: url(../img/IMG_20150714_101239.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed; /* the background image doesn't move when scrolling*/
+  overflow: hidden;
+}
+.paris {
+  background: url(../img/plastik.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.paris h6 {
+  font-size: 3vw;
+  margin-bottom: 0em;
+}
+
+.paris h4 {
+  font-size: 9vw;
+}
+
+.green_header {
+  background: #bada55;
+}
+
+.rocks {
+  background: url(../img/IMG_2123.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header h1 {
+  font-size: 6vw;
+}
+
+/* Text blocks */
+.content {
+  margin: 0 auto ;
+  position: relative;
+  overflow: visible;
+  padding: 1em 23%;
+}
+.start.content {
+  margin-top: -25%;
+}
+footer {
+
+height: auto;
+background: #000;
+color: #eee;
+text-align: center;
+padding: 1em;
+}
+
+video#foo {
+  width: 100%;
+}
